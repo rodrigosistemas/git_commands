@@ -1,5 +1,5 @@
 # git_commands
-<img src="https://github.com/rodrigosistemas/git_commands/blob/main/images/Git-logo.png" alt="Git Logo" widht="300">
+<img src="https://github.com/rodrigosistemas/git_commands/blob/main/images/Git-logo.png" alt="Git Logo" widht="300" height="200">
 
 A list of useful git commands
 
@@ -38,7 +38,7 @@ git log --stat
 ```bash
 git log --oneline
 ```
-
+<br>
 
 ## Commands for working with branches 
 
@@ -66,7 +66,7 @@ git pull origin <branch>
 ```bash
 git merge <branch_name>
 ```
-
+<br>
 
 ## Uplodad project to Github
 
