@@ -1,5 +1,5 @@
 # git_commands
-<img src="https://github.com/rodrigosistemas/git_commands/blob/main/images/Git-logo.png" alt="Git Logo">
+<img src="https://github.com/rodrigosistemas/git_commands/blob/main/images/Git-logo.png" alt="Git Logo" widht="500px">
 
 A list of useful git commands
 
