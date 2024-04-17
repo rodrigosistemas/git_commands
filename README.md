@@ -1,8 +1,6 @@
 # git_commands
 <img src="https://github.com/rodrigosistemas/git_commands/blob/main/images/Git-logo.png" alt="Git Logo" widht="300" height="200">
 
-A list of useful git commands
-
 ## Basic commands
 
 ### Clone a remote repository
