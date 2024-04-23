@@ -92,6 +92,22 @@ git pull origin <branch>
 ```bash
 git merge <branch_name>
 ```
+
+### Undo all changes in staging area
+```bash
+git reset
+```
+
+### Undo last commit and keep changes
+```bash
+git reset HEAD~
+```
+
+### Undo last commit and delete changes
+```bash
+git reset --hard HEAD~
+```
+
 <br>
 
 ## Uplodad project to Github
