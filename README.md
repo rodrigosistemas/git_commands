@@ -36,18 +36,32 @@ git log --stat
 ```bash
 git log --oneline
 ```
+
+### Deleting a file from the repository and the file system
+```bash
+git git rm <nombre_del_archivo>
+```
+```bash
+git rm --force <nombre_del_archivo>
+```
+
+### Remove a file from the repository but keep it in the file system
+```bash
+git rm --cached <nombre_del_archivo>
+```
+
 <br>
 
 ## See the difference between one version and another
 
 ### View changes made in the last two commits
 ```bash
-git show
+git show <hash_del_commit>
 ```
 
 ### View changes from one commit version to another
 ```bash
-git diff
+git diff <commit1> <commit2>
 ```
 
 <br>
