@@ -158,3 +158,35 @@ git log
 ```bash
 git push -u origin main
 ```
+
+<br>
+
+## Temporarily save local changes
+
+### Save changes in the stash
+```bash
+git stash
+```
+```bash
+git stash -m "Stash message"
+```
+
+### View a list of stashes
+```bash
+git stash list
+```
+
+### Apply stash changes
+```bash
+git stash apply
+```
+
+### Delete a stash
+```bash
+git stash drop <identificador_del_stash>
+```
+
+### Apply and remove stash in a single step
+```bash
+git stash pop
+```
