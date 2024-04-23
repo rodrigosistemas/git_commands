@@ -81,7 +81,7 @@ git push -u origin main
 
 ## Solving common erros
 
-### Resolver conflict Git Error | Github Error: failed to push some refs to '[REPO URL]'
+### Solve conflict Git Error | Github Error: failed to push some refs to '[REPO URL]'
 ```bash
 git pull --rebase origin main
 ```
