@@ -121,6 +121,29 @@ git remote add origin <URL_del_repositorio>
 ```bash
 git push -u origin main
 ```
+
+<br>
+
+## Tags
+
+### Creation of a tag
+```bash
+git tag v1.0
+```
+```bash
+git tag v1.0
+```
+
+### List of all tags
+```bash
+git tag
+```
+
+### Delete a tag
+```bash
+git tag -d v1.0
+```
+
 <br>
 
 ## Solving common erros
