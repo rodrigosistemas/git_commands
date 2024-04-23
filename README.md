@@ -38,6 +38,20 @@ git log --oneline
 ```
 <br>
 
+## See the difference between one version and another
+
+### View changes made in the last two commits
+```bash
+git show
+```
+
+### View changes from one commit version to another
+```bash
+git diff
+```
+
+<br>
+
 ## Commands for working with branches 
 
 ### Create a new branch
