@@ -77,3 +77,17 @@ git remote add origin <URL_del_repositorio>
 ```bash
 git push -u origin main
 ```
+<br>
+
+## Solving common erros
+
+### Resolver conflict Git Error | Github Error: failed to push some refs to '[REPO URL]'
+```bash
+git pull --rebase origin main
+```
+```bash
+git log
+```
+```bash
+git push -u origin main
+```
