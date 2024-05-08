@@ -77,6 +77,9 @@ git branch <branch_name>
 ```bash
 git checkout <branch_name>
 ```
+```bash
+git switch <branch_name>
+```
 
 ### Push changes to the remote repository
 ```bash
