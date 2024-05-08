@@ -73,6 +73,11 @@ git diff <commit1> <commit2>
 git branch <branch_name>
 ```
 
+### Create a new branch
+```bash
+git checkout -b <branch_name>
+```
+
 ### Switch to a specific branch
 ```bash
 git checkout <branch_name>
