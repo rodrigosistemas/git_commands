@@ -101,14 +101,9 @@ git merge <branch_name>
 git reset
 ```
 
-### Undo last commit and keep changes
+### Undo current changes and roll back one commit
 ```bash
-git reset HEAD~
-```
-
-### Undo last commit and delete changes
-```bash
-git reset --hard HEAD~
+git reset --hard HEAD~1
 ```
 
 <br>
