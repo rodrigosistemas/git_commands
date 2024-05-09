@@ -131,10 +131,12 @@ git push -u origin main
 
 ### Creation of a tag
 ```bash
-git tag v1.0
+git tag <tag_name>
 ```
+
+### Creation of a tag with message
 ```bash
-git tag v1.0
+git tag -a <tag_name> -m "Message"
 ```
 
 ### List of all tags
@@ -142,9 +144,24 @@ git tag v1.0
 git tag
 ```
 
+### View detailed information of a tag
+```bash
+git show <tag_name>
+```
+
+### Sharing tags with a remote repository:
+```bash
+git push origin <tag_name>
+```
+
 ### Delete a tag
 ```bash
-git tag -d v1.0
+git tag -d <tag_name>
+```
+
+### Delete a tag in the remote repository
+```bash
+git push --delete origin <tag_name>
 ```
 
 <br>
