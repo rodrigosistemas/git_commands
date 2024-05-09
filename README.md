@@ -111,6 +111,11 @@ git reset
 git reset --hard HEAD~1
 ```
 
+### Keeps current changes and roll back one commit
+```bash
+git reset --soft HEAD~1
+```
+
 <br>
 
 ## Uplodad project to Github
