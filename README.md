@@ -101,6 +101,11 @@ git pull origin <branch>
 git merge <branch_name>
 ```
 
+## Attatch new branch
+```bash
+git rebase <branch_name>
+```
+
 ### Undo all changes in staging area
 ```bash
 git reset
