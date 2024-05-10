@@ -18,6 +18,11 @@ git add <file>
 git commit -m "Commit message"
 ```
 
+### Modify commit
+```bash
+git commit --amend -m "Change version"
+```
+
 ### View the current status of the repository
 ```bash
 git status
