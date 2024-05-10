@@ -126,6 +126,11 @@ git reset --hard HEAD~1
 git reset --soft HEAD~1
 ```
 
+### Return changes
+```bash
+git revert <commit_hash>
+```
+
 <br>
 
 ## Uplodad project to Github
