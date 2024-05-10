@@ -106,11 +106,12 @@ git pull origin <branch>
 git merge <branch_name>
 ```
 
-## Attatch new branch
+### Attatch new branch
 ```bash
 git rebase <branch_name>
 ```
-
+### Reset changes (private branches)
+#### Delete the pushed commit
 ### Undo all changes in staging area
 ```bash
 git reset
@@ -126,7 +127,8 @@ git reset --hard HEAD~1
 git reset --soft HEAD~1
 ```
 
-### Return changes
+### Revert changes (public branches)
+#### Push a new commit which reverts the pushed commit
 ```bash
 git revert <commit_hash>
 ```
