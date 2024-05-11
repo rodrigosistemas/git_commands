@@ -141,6 +141,11 @@ git reset --hard <commit_hash>
 git revert <commit_hash>
 ```
 
+### Header pointer history
+```bash
+git reflog
+```
+
 <br>
 
 ## Uplodad project to Github
