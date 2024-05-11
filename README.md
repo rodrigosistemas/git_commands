@@ -39,7 +39,10 @@ git log
 git log --stat
 ```
 ```bash
-git log --oneline
+git log --oneline 
+```
+```bash
+git log --oneline --all --graph
 ```
 
 ### Deleting a file from the repository and the file system
