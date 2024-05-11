@@ -130,6 +130,11 @@ git reset --hard HEAD~1
 git reset --soft HEAD~1
 ```
 
+### Restore git commmit
+```bash
+git reset --hard <commit_hash>
+```
+
 ### Revert changes (public branches)
 #### Push a new commit which reverts the pushed commit
 ```bash
