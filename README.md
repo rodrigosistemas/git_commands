@@ -3,6 +3,40 @@
 
 ## Basic commands
 
+### Git configuration
+#### Config username
+```bash
+git config --global user.name ""
+```
+#### Config email
+```bash
+git config --global user.email 
+```
+#### Check the current editor
+```bash
+git config --get core.editor
+```
+#### Set vscode as default editor
+```bash
+git config --global core.editor "code --wait"
+```
+#### Set nano as default editor
+```bash
+git config --global core.editor nano
+```
+#### Open default editor
+```bash
+git config --global -e
+```
+#### Autocrlf configuration Windows
+```bash
+git config --global core.autocrlf true
+```
+#### Aurocrlf configuration Linux/Mac
+```bash
+git config --global core.autocrlf input
+```
+
 ### Clone a remote repository
 ```bash
 git clone <repository_URL>
