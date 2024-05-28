@@ -37,6 +37,8 @@ git config --global core.autocrlf true
 git config --global core.autocrlf input
 ```
 
+<br>
+
 ### Clone a remote repository
 ```bash
 git clone <repository_URL>
