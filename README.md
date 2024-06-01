@@ -81,17 +81,25 @@ git log --oneline
 git log --oneline --all --graph
 ```
 
-### Deleting a file from the repository and the file system
+### Return to a specific deleted commit
 ```bash
-git git rm <nombre_del_archivo>
+git reset --hard <commit_hash>
 ```
 ```bash
-git rm --force <nombre_del_archivo>
+git reset --soft <commit_hash>
+```
+
+### Deleting a file from the repository and the file system
+```bash
+git git rm <file_name>
+```
+```bash
+git rm --force <file_name>
 ```
 
 ### Remove a file from the repository but keep it in the file system
 ```bash
-git rm --cached <nombre_del_archivo>
+git rm --cached <file_name>
 ```
 
 <br>
@@ -100,7 +108,7 @@ git rm --cached <nombre_del_archivo>
 
 ### View changes made in the last two commits
 ```bash
-git show <hash_del_commit>
+git show <ccommit_hash>
 ```
 
 ### View changes from one commit version to another
@@ -120,6 +128,15 @@ git branch <branch_name>
 ### Create a new branch
 ```bash
 git checkout -b <branch_name>
+```
+
+### Delete a branch
+```bash
+git branch -d <branch_name>
+```
+### Force branch deletion
+```bash
+git branch -D <branch_name>
 ```
 
 ### Switch to a specific branch
@@ -188,7 +205,7 @@ git reflog
 
 ### Add the remote repository
 ```bash
-git remote add origin <URL_del_repositorio>
+git remote add origin <Repository_URL>
 ```
 
 ### Upload your changes to Github
@@ -274,7 +291,7 @@ git stash apply
 
 ### Delete a stash
 ```bash
-git stash drop <identificador_del_stash>
+git stash drop <identifier_stash>
 ```
 
 ### Apply and remove stash in a single step
