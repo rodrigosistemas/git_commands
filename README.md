@@ -208,6 +208,11 @@ git reflog
 git remote add origin <Repository_URL>
 ```
 
+### View the current remote repository
+```bash
+git remote -v
+```
+
 ### Upload your changes to Github
 ```bash
 git push -u origin main
