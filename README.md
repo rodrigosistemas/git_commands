@@ -303,3 +303,10 @@ git stash drop <identifier_stash>
 ```bash
 git stash pop
 ```
+
+<br>
+
+### Cherry pick
+```bash
+git cherry-pick <commit_hash>
+```
