@@ -4,6 +4,10 @@
 ## Basic commands
 
 ### Git configuration
+### List configuration
+```bash
+git config -l
+```
 #### Config username
 ```bash
 git config --global user.name ""
