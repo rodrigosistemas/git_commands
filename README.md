@@ -334,8 +334,3 @@ git shortlog -sn -all --no-merges
 ```bash
 git blame <file_name>
 ```
-
-### Cherry pick
-```bash
-git cherry-pick <commit_hash>
-```
