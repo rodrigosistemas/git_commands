@@ -343,3 +343,6 @@ git shortlog -sn -all --no-merges
 ```bash
 git blame <file_name>
 ```
+```bash
+git blame <file_name> -<Lxx><xx>
+```
