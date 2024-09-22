@@ -134,6 +134,15 @@ git branch <branch_name>
 git checkout -b <branch_name>
 ```
 
+### All remote branches are displayed
+```bash
+git branch -r
+```
+### All branches both local and remote are shown
+```bash
+git branch -a
+```
+
 ### Delete a branch
 ```bash
 git branch -d <branch_name>
