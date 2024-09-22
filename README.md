@@ -314,3 +314,28 @@ git stash pop
 ```bash
 git cherry-pick <commit_hash>
 ```
+
+<br>
+
+## Teamwork
+### Shows how many commits each team member has made
+```bash
+git shortlog
+```
+### Shows how many commits have been made by each team member up to those that have been eliminated
+```bash
+git shortlog -sn -all
+```
+### Shows how many commits each member has made by removing the deleted ones without the merges
+```bash
+git shortlog -sn -all --no-merges 
+```
+### Shows who did what line by line
+```bash
+git blame <file_name>
+```
+
+### Cherry pick
+```bash
+git cherry-pick <commit_hash>
+```
