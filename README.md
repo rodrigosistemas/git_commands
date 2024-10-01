@@ -3,7 +3,6 @@
 
 ## Basic commands
 
-### Git configuration
 ### List configuration
 ```bash
 git config -l
