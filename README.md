@@ -3,7 +3,7 @@
 
 ## Basic commands
 
-### List configuration
+#### List configuration
 ```bash
 git config -l
 ```
@@ -59,27 +59,27 @@ ssh-add ~/.ssh/id_rsa
 
 <br>
 
-### Clone a remote repository
+#### Clone a remote repository
 ```bash
 git clone <repository_URL>
 ```
 
-### Add changes to the staging area
+#### Add changes to the staging area
 ```bash
 git add <file>
 ```
 
-### Commit changes
+#### Commit changes
 ```bash
 git commit -m "Commit message"
 ```
 
-### Modify commit
+#### Modify commit
 ```bash
 git commit --amend -m "Change version"
 ```
 
-### View the current status of the repository
+#### View the current status of the repository
 ```bash
 git status
 ```
@@ -87,7 +87,7 @@ git status
 git status -s
 ```
 
-### View the commit history
+#### View the commit history
 ```bash
 git log
 ```
@@ -101,7 +101,7 @@ git log --oneline
 git log --oneline --all --graph
 ```
 
-### Return to a specific deleted commit
+#### Return to a specific deleted commit
 ```bash
 git reset --hard <commit_hash>
 ```
@@ -109,7 +109,7 @@ git reset --hard <commit_hash>
 git reset --soft <commit_hash>
 ```
 
-### Deleting a file from the repository and the file system
+#### Deleting a file from the repository and the file system
 ```bash
 git git rm <file_name>
 ```
@@ -117,58 +117,58 @@ git git rm <file_name>
 git rm --force <file_name>
 ```
 
-### Remove a file from the repository but keep it in the file system
+#### Remove a file from the repository but keep it in the file system
 ```bash
 git rm --cached <file_name>
 ```
 
 <br>
 
-## See the difference between one version and another
+### See the difference between one version and another
 
-### View changes made in the last two commits
+#### View changes made in the last two commits
 ```bash
 git show <ccommit_hash>
 ```
 
-### View changes from one commit version to another
+#### View changes from one commit version to another
 ```bash
 git diff <commit1> <commit2>
 ```
 
 <br>
 
-## Commands for working with branches 
+### Commands for working with branches 
 
-### Create a new branch
+#### Create a new branch
 ```bash
 git branch <branch_name>
 ```
 
-### Create a new branch
+#### Create a new branch
 ```bash
 git checkout -b <branch_name>
 ```
 
-### All remote branches are displayed
+#### All remote branches are displayed
 ```bash
 git branch -r
 ```
-### All branches both local and remote are shown
+#### All branches both local and remote are shown
 ```bash
 git branch -a
 ```
 
-### Delete a branch
+#### Delete a branch
 ```bash
 git branch -d <branch_name>
 ```
-### Force branch deletion
+#### Force branch deletion
 ```bash
 git branch -D <branch_name>
 ```
 
-### Switch to a specific branch
+#### Switch to a specific branch
 ```bash
 git checkout <branch_name>
 ```
@@ -176,121 +176,119 @@ git checkout <branch_name>
 git switch <branch_name>
 ```
 
-### Push changes to the remote repository
+#### Push changes to the remote repository
 ```bash
 git push origin <branch>
 ```
 
-### Update the local repository with remote changes
+#### Update the local repository with remote changes
 ```bash
 git pull origin <branch>
 ```
 
-### Merge changes from one branch to another
+#### Merge changes from one branch to another
 ```bash
 git merge <branch_name>
 ```
 
-### Attatch new branch
+#### Attatch new branch
 ```bash
 git rebase <branch_name>
 ```
-### Reset changes (private branches)
-#### Delete the pushed commit
-### Undo all changes in staging area
+#### Reset changes (private branches)
 ```bash
 git reset
 ```
 
-### Undo current changes and roll back one commit
+#### Undo current changes and roll back one commit
 ```bash
 git reset --hard HEAD~1
 ```
 
-### Keeps current changes and roll back one commit
+#### Keeps current changes and roll back one commit
 ```bash
 git reset --soft HEAD~1
 ```
 
-### Restore git commmit
+#### Restore git commmit
 ```bash
 git reset --hard <commit_hash>
 ```
 
-### Revert changes (public branches)
+#### Revert changes (public branches)
 #### Push a new commit which reverts the pushed commit
 ```bash
 git revert <commit_hash>
 ```
 
-### Header pointer history
+#### Header pointer history
 ```bash
 git reflog
 ```
 
 <br>
 
-## Uplodad project to Github
+### Uplodad project to Github
 
-### Add the remote repository
+#### Add the remote repository
 ```bash
 git remote add origin <Repository_URL>
 ```
 
-### View the current remote repository
+#### View the current remote repository
 ```bash
 git remote -v
 ```
 
-### Upload your changes to Github
+#### Upload your changes to Github
 ```bash
 git push -u origin main
 ```
 
 <br>
 
-## Tags
+### Tags
 
-### Creation of a tag
+#### Creation of a tag
 ```bash
 git tag <tag_name>
 ```
 
-### Creation of a tag with message
+#### Creation of a tag with message
 ```bash
 git tag -a <tag_name> -m "Message"
 ```
 
-### List of all tags
+#### List of all tags
 ```bash
 git tag
 ```
 
-### View detailed information of a tag
+#### View detailed information of a tag
 ```bash
 git show <tag_name>
 ```
 
-### Sharing tags with a remote repository:
+#### Sharing tags with a remote repository:
 ```bash
 git push origin <tag_name>
 ```
 
-### Delete a tag
+#### Delete a tag
 ```bash
 git tag -d <tag_name>
 ```
 
-### Delete a tag in the remote repository
+#### Delete a tag in the remote repository
 ```bash
 git push --delete origin <tag_name>
 ```
 
 <br>
 
-## Solving common erros
+### Solving common erros
 
-### Solve conflict Git Error | Github Error: failed to push some refs to '[REPO URL]'
+#### Solve conflict Git Error | Github Error: failed to push some refs to '[REPO URL]'
 ```bash
 git pull --rebase origin main
 ```
@@ -303,9 +301,9 @@ git push -u origin main
 
 <br>
 
-## Temporarily save local changes
+### Temporarily save local changes
 
-### Save changes in the stash
+#### Save changes in the stash
 ```bash
 git stash
 ```
@@ -313,22 +311,22 @@ git stash
 git stash -m "Stash message"
 ```
 
-### View a list of stashes
+#### View a list of stashes
 ```bash
 git stash list
 ```
 
-### Apply stash changes
+#### Apply stash changes
 ```bash
 git stash apply
 ```
 
-### Delete a stash
+#### Delete a stash
 ```bash
 git stash drop <identifier_stash>
 ```
 
-### Apply and remove stash in a single step
+#### Apply and remove stash in a single step
 ```bash
 git stash pop
 ```
@@ -342,20 +340,20 @@ git cherry-pick <commit_hash>
 
 <br>
 
-## Teamwork
-### Shows how many commits each team member has made
+### Teamwork
+#### Shows how many commits each team member has made
 ```bash
 git shortlog
 ```
-### Shows how many commits have been made by each team member up to those that have been eliminated
+#### Shows how many commits have been made by each team member up to those that have been eliminated
 ```bash
 git shortlog -sn -all
 ```
-### Shows how many commits each member has made by removing the deleted ones without the merges
+#### Shows how many commits each member has made by removing the deleted ones without the merges
 ```bash
 git shortlog -sn -all --no-merges 
 ```
-### Shows who did what line by line
+#### Shows who did what line by line
 ```bash
 git blame <file_name>
 ```
