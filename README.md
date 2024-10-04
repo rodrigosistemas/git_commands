@@ -42,6 +42,23 @@ git config --global core.autocrlf input
 
 <br>
 
+### SSH local keys configuration
+
+#### Generate a new SSH key: (Any operating system)
+```bash
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+```
+
+#### Check process and add it (Windows/Linux)
+```bash
+eval $(ssh-agent -s)
+```
+```bash
+ssh-add ~/.ssh/id_rsa
+```
+
+<br>
+
 ### Clone a remote repository
 ```bash
 git clone <repository_URL>
