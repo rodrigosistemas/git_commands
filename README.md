@@ -13,11 +13,11 @@ git config --global user.name ""
 ```
 #### Config email
 ```bash
-git config --global user.email 
+git config --global user.email ""
 ```
 #### Check the current editor
 ```bash
-git config --get core.editor
+git config --get core.editor ""
 ```
 #### Set vscode as default editor
 ```bash
