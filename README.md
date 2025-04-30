@@ -393,8 +393,6 @@ git remote remove origin
 git remote add origin <new_repository_URL>
 ```
 
----
-
 ### 🚀 Push to the new remote repository
 
 #### If the new remote is empty
@@ -415,4 +413,3 @@ git push -u origin main --force
   - You change your GitHub account or organization.
   - You rename or recreate a repository.
   - You migrate to a different hosting service.
-```
