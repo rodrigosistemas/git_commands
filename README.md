@@ -360,3 +360,59 @@ git blame <file_name>
 ```bash
 git blame <file_name> -<Lxx><xx>
 ```
+
+## 🔁 Change the Remote Repository on GitHub
+
+### View the current remote URL
+```bash
+git remote -v
+```
+
+### Change the remote URL (`origin`)
+```bash
+git remote set-url origin <new_repository_URL>
+```
+> Replace `<new_repository_URL>` with the new HTTPS or SSH URL of your repository.
+
+### Confirm the change
+```bash
+git remote -v
+```
+
+---
+
+### 💡 Alternative: Remove and re-add the remote
+
+#### Remove the current remote
+```bash
+git remote remove origin
+```
+
+#### Add the new remote URL
+```bash
+git remote add origin <new_repository_URL>
+```
+
+---
+
+### 🚀 Push to the new remote repository
+
+#### If the new remote is empty
+```bash
+git push -u origin main
+```
+
+#### If there is a history mismatch, you can force push (⚠️ use with caution)
+```bash
+git push -u origin main --force
+```
+
+### 🧠 Important Notes
+
+- ✅ **No commits, branches, or history will be lost.**
+- 🛠️ **You’re only updating the destination for push/pull operations.**
+- 🔄 This is useful when:
+  - You change your GitHub account or organization.
+  - You rename or recreate a repository.
+  - You migrate to a different hosting service.
+```
